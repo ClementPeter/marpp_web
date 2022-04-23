@@ -1,0 +1,518 @@
+ListView(
+        children: [
+          Container(
+            ///height: MediaQuery.of(context).size.height / 0.8,
+            //width: MediaQuery.of(context).size.width,
+            color: const Color(0XFFE6DEFB),
+            child: //HEADER
+                Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(top: 30, left: 40, right: 40),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Row(
+                        children: [
+                          // SvgPicture.asset(
+                          //   'images/marpp_logo.svg',
+                          //   width: 50.0,
+                          //   height: 50.0,
+                          // ),
+                          Image.asset(
+                            'images/marpp_logo.png',
+                            //width: 600,
+                          ),
+
+                          //width: MediaQuery.of(context).size.width,
+                          // height: MediaQuery.of(context).size.height,
+                          const SizedBox(width: 8.0),
+                          const Text(
+                            'marpp',
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 24,
+                            ),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        children: [
+                          const Text(
+                            'Products',
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Color(0XFF192A3E),
+                            ),
+                          ),
+                          const SizedBox(width: 40),
+                          const Text(
+                            'Pricing',
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Color(0XFF192A3E),
+                            ),
+                          ),
+                          //Text('Mac', style: TextStyle(color: Color(0xFF6F92B6))),
+                          const SizedBox(width: 40),
+                          const Text(
+                            'Resources',
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Color(0XFF192A3E),
+                            ),
+                          ),
+                          const SizedBox(width: 40),
+                          const Text(
+                            'Support',
+                            style: TextStyle(
+                              fontSize: 16.0,
+                              color: Color(0XFF192A3E),
+                            ),
+                          ),
+                          const SizedBox(width: 40),
+
+                          Container(
+                            height: 40,
+                            width: 120,
+                            child: const Center(
+                              child: Text(
+                                'Login',
+                                style: TextStyle(
+                                  fontSize: 16.0,
+                                  color: Color(0xFF885Af8),
+                                ),
+                              ),
+                            ),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              border:
+                                  Border.all(color: const Color(0xFF885Af8)),
+                              borderRadius: const BorderRadius.all(
+                                Radius.circular(5.0),
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 40.0),
+                          Container(
+                            height: 40,
+                            width: 120,
+                            child: const Center(
+                              child: Text(
+                                'Free Trial',
+                                style: TextStyle(
+                                  fontSize: 16.0,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                            decoration: const BoxDecoration(
+                              color: Color(0xFF885Af8),
+                              //border: Border.all(color: const Color(0xFF885Af8)),
+                              borderRadius: BorderRadius.all(
+                                Radius.circular(5.0),
+                              ),
+                            ),
+                          ),
+
+                          // const Icon(Icons.search, color: Colors.white),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                //const SizedBox(height: 40.0),
+                Container(
+                  child: Padding(
+                    padding: const EdgeInsets.only(
+                        top: 60.0, left: 40, right: 40, bottom: 80.0),
+                    child: Row(
+                      //crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text(
+                              'All your marketing tools\nand data - all under one\nroof.',
+                              softWrap: true,
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 40.0,
+                                color: Color(0XFF192A3E),
+                              ),
+                              //textAlign: TextAlign.left,
+
+                              //style: TextStyle(
+                            ),
+                            const SizedBox(height: 15.0),
+                            const Text(
+                              'Marpp is the smartest and intuituve platform for\ngrowing business.\nThrive digitally as we guide your business with the\nright marketing tools,',
+                              style: TextStyle(
+                                fontSize: 16.0,
+                                color: Color(0XFF192A3E),
+                                // color: Colors.white,
+                                letterSpacing: 1,
+                              ),
+                            ),
+                            const SizedBox(height: 50.0),
+                            Container(
+                              height: 40,
+                              width: 140,
+                              child: const Center(
+                                child: Text(
+                                  'GET STARTED',
+                                  style: TextStyle(
+                                    fontSize: 16.0,
+                                    fontWeight: FontWeight.w500,
+                                    color: Colors.white,
+                                    letterSpacing: 1.5,
+                                  ),
+                                ),
+                              ),
+                              decoration: const BoxDecoration(
+                                color: Color(0xFF885Af8),
+                                //border: Border.all(color: const Color(0xFF885Af8)),
+                                borderRadius: BorderRadius.all(
+                                  Radius.circular(5.0),
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        const Expanded(child: SizedBox()),
+                        Image.asset(
+                          'images/urban_woman.png',
+                          width: 600,
+                        ),
+                        const SizedBox(height: 20.0),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: const [
+                            // Container(
+                            //   height: 40,
+                            //   width: 140,
+                            //   child: const Center(
+                            //     child: Text(
+                            //       'GET STARTED',
+                            //       style: TextStyle(
+                            //         fontSize: 16.0,
+                            //         fontWeight: FontWeight.w500,
+                            //         color: Colors.white,
+                            //         letterSpacing: 1.5,
+                            //       ),
+                            //     ),
+                            //   ),
+                            //   decoration: const BoxDecoration(
+                            //     color: Color(0xFF885Af8),
+                            //     //border: Border.all(color: const Color(0xFF885Af8)),
+                            //     borderRadius: BorderRadius.all(
+                            //       Radius.circular(5.0),
+                            //     ),
+                            //   ),
+                            // ),
+                            // Container(
+                            //   height: 400,
+                            //   width: 500,
+                            //   decoration: const BoxDecoration(
+                            //     image: DecorationImage(
+                            //       image: AssetImage('images/urban_woman.png'),
+                            //       fit: BoxFit.cover,
+                            //     ),
+                            //     borderRadius:
+                            //         BorderRadius.all(Radius.circular(10.0)),
+                            //   ),
+                            // ),
+
+                            //2 Button
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Container(
+                  //height: MediaQuery.of(context).size.height,
+                  // width: MediaQuery.of(context).size.width,
+                  color: Colors.white,
+                  child: Padding(
+                    padding:
+                        const EdgeInsets.only(top: 50, left: 40, right: 40),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text(
+                          'Stay in touch with your \ncustomers anywhere they are',
+                          softWrap: true,
+                          style: TextStyle(
+                            fontWeight: FontWeight.w600,
+                            fontSize: 36.0,
+                            color: Color(0XFF192A3E),
+                          ),
+                          //textAlign: TextAlign.left,
+
+                          //style: TextStyle(
+                        ),
+                        const SizedBox(height: 20.0),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 60, right: 60),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              //EMAIL Marketing Section
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  //ListTile()
+                                  // Expanded(
+                                  //   child: Container(
+                                  //     child: Column(
+                                  //       children: [],
+                                  //     ),
+                                  //   ),
+                                  // ),
+                                  //Icon
+                                  Image.asset('images/mail.png'),
+                                  const SizedBox(height: 8.0),
+                                  const Text(
+                                    'Email Marketing',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 20.0,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 8.0),
+                                  const Text(
+                                    ' MAILLLL more Texxxxxt tjiojiiiiiiiiiojext\njwoiefjriiiiiiiiiiiwofjwf\niejowfjewfojmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmowifj',
+                                  ),
+                                  const SizedBox(height: 25.0),
+                                  Container(
+                                    height: 32,
+                                    width: 102,
+                                    child: const Center(
+                                      child: Text(
+                                        'Learn More',
+                                        style: TextStyle(
+                                          fontSize: 16.0,
+                                          color: Color(0xFF18A0FB),
+                                        ),
+                                      ),
+                                    ),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(
+                                          color: const Color(0xFF18A0FB)),
+                                      borderRadius: const BorderRadius.all(
+                                        Radius.circular(5.0),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              //SMS Marketing Section
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  //Icon
+                                  Image.asset('images/sms.png'),
+                                  const SizedBox(height: 8.0),
+                                  const Text(
+                                    'SMS Marketing',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 20.0,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 8.0),
+                                  const Text(
+                                    'SMSSSSSSSSS more Texxxxxt tjowkfowekfoewkofkweiojiojext\njwoieokcowekfoewkokfjriwofjwf\niejookodkfewofkoekfwokfowfjewfojowifj',
+                                  ),
+                                  const SizedBox(height: 25.0),
+                                  Container(
+                                    height: 32,
+                                    width: 102,
+                                    child: const Center(
+                                      child: Text(
+                                        'Learn More',
+                                        style: TextStyle(
+                                          fontSize: 16.0,
+                                          color: Color(0xFF2ED47A),
+                                        ),
+                                      ),
+                                    ),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(
+                                          color: const Color(0xFF2ED47A)),
+                                      borderRadius: const BorderRadius.all(
+                                        Radius.circular(5.0),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(height: 50.0),
+
+                        ///2nd Row Auto and CRM
+                        const SizedBox(height: 20.0),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 60, right: 60),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              //Marketing Automation section
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  //Icon
+                                  Image.asset('images/market_auto.png'),
+
+                                  const SizedBox(height: 8.0),
+                                  const Text(
+                                    'Marketing Automation',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 20.0,
+                                    ),
+                                  ),
+                                  const SizedBox(height: 8.0),
+                                  const Text(
+                                    'more Texxxxxt tjiojiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiojext\njwoiefjriiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiwofjwf\niejowfjewfojmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmowifj',
+                                  ),
+                                  const SizedBox(height: 25.0),
+                                  Container(
+                                    height: 32,
+                                    width: 102,
+                                    child: const Center(
+                                      child: Text(
+                                        'Learn More',
+                                        style: TextStyle(
+                                          fontSize: 16.0,
+                                          color: Color(0xFF885AF8),
+                                        ),
+                                      ),
+                                    ),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(
+                                          color: const Color(0xFF885AF8)),
+                                      borderRadius: const BorderRadius.all(
+                                        Radius.circular(5.0),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              //CRM  Section
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  //Icon
+                                  Image.asset('images/crm.png'),
+                                  const SizedBox(height: 8.0),
+                                  const Text(
+                                    'CRM',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w600,
+                                      fontSize: 20.0,
+                                    ),
+                                  ),
+                                  const Text(
+                                    'CRMMMMM more Texxxxxt tjowkfowekfoewkofkweiojiojext\njwoieokcowekfoewkokfjriwofjwf\niejookodkfewofkoekfwokfowfjewfojowifj',
+                                  ),
+                                  const SizedBox(height: 25.0),
+                                  Container(
+                                    height: 32,
+                                    width: 102,
+                                    child: const Center(
+                                      child: Text(
+                                        'Learn More',
+                                        style: TextStyle(
+                                          fontSize: 16.0,
+                                          color: Color(0xFFF7685B),
+                                        ),
+                                      ),
+                                    ),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      border: Border.all(
+                                          color: const Color(0xFFF7685B)),
+                                      borderRadius: const BorderRadius.all(
+                                        Radius.circular(5.0),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(
+                          child: Row(
+                            children: [
+                              Image.asset('images/speaker.png',
+                                  width: 600, height: 600),
+                              // Text('jij'),
+                              Column(
+                                children: const [
+                                  Text(
+                                    "Connects you easier and faster through all Social Platforms",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20.0,
+                                      color: Color(0XFF192A3E),
+                                    ),
+                                  ),
+                                  Text(
+                                    'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,\nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi\nnesciunt. Neque porro quisquam est, qui dolorem.',
+                                  )
+                                ],
+                              )
+                            ],
+                          ),
+                        ),
+                        Container(
+                          color: const Color(0XFFF5F5F5),
+                          child: Row(
+                            children: [
+                              // Text('jij'),
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: const [
+                                    Text(
+                                      "Discuss",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 20.0,
+                                        color: Color(0XFF192A3E),
+                                      ),
+                                    ),
+                                    Text(
+                                      'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,\nsed quia consequuntur magni dolores eos qui ratione voluptatem sequi\nnesciunt. Neque porro quisquam est, qui dolorem.',
+                                    )
+                                  ],
+                                ),
+                              ),
+                              Image.asset(
+                                'images/discuss.png',
+                                width: 600,
+                                height: 600,
+                              ),
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                )
+                // Row(
+              ],
+            ),
+          ),
+        ],
+      ),
