@@ -1,6 +1,6 @@
 # marpp_web
 
-A new Flutter project.
+Web CodeBase for MARPP
 
 ## Getting Started
 
