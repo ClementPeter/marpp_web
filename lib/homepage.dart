@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:marpp_web/components/header.dart';
 import 'package:marpp_web/views/landing_page/desktop_landing.dart';
 import 'package:marpp_web/views/landing_page/mobile_landing.dart';
 import 'package:marpp_web/views/landing_page/tablet_landing.dart';
+import 'package:marpp_web/views/pricing_page/desktop_pricing.dart';
 import 'package:marpp_web/widgets/responsive_layout.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -19,7 +21,9 @@ class _MyHomePageState extends State<MyHomePage> {
       body: ResponsiveLayout(
         mobile: LandingPageMobileView(),
         tablet: LandingTabletView(),
-        desktop: LandingDesktopView(),
+        //desktop: LandingDesktopView(),
+        desktop: PricingDesktopView(),
+        //desktop: DeskTopHeader()
       ),
     );
   }

@@ -20,7 +20,7 @@ class ResponsiveLayout extends StatelessWidget {
             MediaQuery.of(context).size.width,
           );
           return tablet ?? mobile;
-        } else if (constraint.maxWidth <= 1400 && constraint.maxWidth > 800) {
+        } else if (constraint.maxWidth <= 1080 && constraint.maxWidth > 800) {
           print(
             // height: MediaQuery.of(context).size.height,
             MediaQuery.of(context).size.width,

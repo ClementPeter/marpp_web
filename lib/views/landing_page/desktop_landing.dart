@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:marpp_web/components/footer.dart';
 import 'package:marpp_web/components/header.dart';
+import 'package:marpp_web/components/footer.dart';
 
 class LandingDesktopView extends StatefulWidget {
   const LandingDesktopView({Key? key}) : super(key: key);
@@ -10,6 +10,16 @@ class LandingDesktopView extends StatefulWidget {
 }
 
 class _LandingDesktopViewState extends State<LandingDesktopView> {
+  // Function onTap(Function value) {
+  //   print('Support Page');
+  //    Navigator.push(
+  //     context,
+  //     MaterialPageRoute(
+  //       builder: (context) =>  value
+  //     ),
+  //   );
+  // }
+
   @override
   Widget build(BuildContext context) {
     return ListView(
@@ -26,7 +36,9 @@ class _LandingDesktopViewState extends State<LandingDesktopView> {
                 padding: const EdgeInsets.only(top: 30, left: 40, right: 40),
                 //HEADER
                 child: desktopHeader(),
+                //child: DesktopHeader(),
               ),
+              //DesktopHeader(),
               //const SizedBox(height: 40.0),
               Container(
                 child: Padding(
@@ -174,7 +186,6 @@ class _LandingDesktopViewState extends State<LandingDesktopView> {
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                          
                                 Image.asset('images/mail.png'),
                                 const SizedBox(height: 8.0),
                                 const Text(
@@ -484,7 +495,6 @@ class _LandingDesktopViewState extends State<LandingDesktopView> {
                     child: Padding(
                       padding: const EdgeInsets.only(left: 100, right: 100),
                       child: Row(
-                       
                         children: [
                           const Text(
                             'Ready to add more prductivity tools to your business\nGet started with MARP feel dree to contact us\nWe are always open for to you feedback',
@@ -554,4 +564,7 @@ class _LandingDesktopViewState extends State<LandingDesktopView> {
       ],
     );
   }
+}
+
+class DesktopHeader {
 }
