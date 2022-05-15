@@ -13,8 +13,8 @@ class PriceCards extends StatefulWidget {
   //
   PriceCards({
     Key? key,
-    required this.isPadding,
     this.bundle,
+    required this.isPadding,
     this.price,
     this.buyNow,
     this.description,
@@ -66,13 +66,6 @@ class _PriceCardsState extends State<PriceCards> {
                   ),
                 ),
               ),
-
-            //Padding()
-
-            // {
-            //   //Padding
-            // },
-            //widget.isPadding ?'ij':'iji';
 
             Text(
               '${widget.bundle}',

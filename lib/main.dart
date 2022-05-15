@@ -18,10 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'marpp_web',
       theme: ThemeData(
         fontFamily: 'Rubik',
-        colorScheme: ColorScheme.fromSwatch().copyWith(
-          primary: const Color(0XFF885AF8),
-          // secondary: const Color(0xFFFFC107),
-        ),
+        primaryColor: const Color(0XFF885AF8),
       ),
       home: const MyHomePage(title: 'marpp web application'),
     );

@@ -153,7 +153,6 @@ class _PricingDesktopViewState extends State<PricingDesktopView> {
                 ),
                 //
                 //
-                //
                 //Professional Card
                 PriceCards(
                   isPadding: true,
@@ -265,7 +264,7 @@ class _PricingDesktopViewState extends State<PricingDesktopView> {
                     ],
                   ),
                 ),
-                //
+
                 //
                 //3rd card Premium
                 PriceCards(
@@ -414,14 +413,3 @@ class _PricingDesktopViewState extends State<PricingDesktopView> {
   }
 }
 
-//
-     // Container(
-                //   color: Colors.blueGrey,
-                //   height: MediaQuery.of(context).size.height * 0.8,
-                //   width: MediaQuery.of(context).size.height * 0.5,
-                // ),
-                // Container(
-                //   color: Colors.grey,
-                //   height: MediaQuery.of(context).size.height * 0.75,
-                //   width: MediaQuery.of(context).size.height * 0.5,
-                // ),

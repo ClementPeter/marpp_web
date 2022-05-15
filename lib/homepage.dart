@@ -21,8 +21,8 @@ class _MyHomePageState extends State<MyHomePage> {
       body: ResponsiveLayout(
         mobile: LandingPageMobileView(),
         tablet: LandingTabletView(),
-        //desktop: LandingDesktopView(),
-        desktop: PricingDesktopView(),
+        desktop: LandingDesktopView(),
+        //desktop: PricingDesktopView(),
         //desktop: DeskTopHeader()
       ),
     );

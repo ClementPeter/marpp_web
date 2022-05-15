@@ -20,10 +20,11 @@ Widget desktopHeader() {
       Row(
         children: [
           // SvgPicture.asset(
-          //   'images/marpp_logo.svg',
           //   width: 50.0,
           //   height: 50.0,
           // ),
+          
+        
           Image.asset(
             'images/marpp_logo.png',
             //width: 600,
