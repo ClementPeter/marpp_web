@@ -1,6 +1,6 @@
 # marpp_web
 
-### Web CodeBase for MARPP
+### Web Codebase for MARPP
 
 #### This Project is a Landing Page for a Marketing application to help Sellers reach their target audienc
 
