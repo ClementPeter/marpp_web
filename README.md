@@ -2,9 +2,11 @@
 
 ### Web Codebase for MARPP
 
-#### This Project is a Landing Page for a Marketing application to help Sellers reach their target audienc
+#### This Project is a Landing Page for a Marketing application to help Sellers reach their target audience
 
-## Preview : https://marpp-flutter.netlify.app/#/
+Live Demo  : https://marpp-flutter.netlify.app/#/
+
+## Preview
 ![web1](https://user-images.githubusercontent.com/61213263/168443384-2f526041-fcd3-4f59-a8b3-898893a94be9.png)
 
 
