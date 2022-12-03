@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:marpp_web/components/header.dart';
-import 'package:marpp_web/views/landing_page/desktop_landing.dart';
+import 'package:marpp_web/views/landing_page/desktop_landing/components/header.dart';
+import 'package:marpp_web/views/landing_page/desktop_landing/desktop_landing.dart';
 import 'package:marpp_web/views/landing_page/mobile_landing.dart';
 import 'package:marpp_web/views/landing_page/tablet_landing.dart';
 import 'package:marpp_web/views/pricing_page/desktop_pricing.dart';

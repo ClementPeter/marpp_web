@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:marpp_web/components/header.dart';
+import 'package:marpp_web/views/landing_page/desktop_landing/components/header.dart';
 import 'package:marpp_web/components/price_card.dart';
 
 class PricingDesktopView extends StatefulWidget {

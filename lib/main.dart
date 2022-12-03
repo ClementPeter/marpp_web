@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Rubik',
         primaryColor: const Color(0XFF885AF8),
+        
       ),
       home: const MyHomePage(title: 'marpp web application'),
     );

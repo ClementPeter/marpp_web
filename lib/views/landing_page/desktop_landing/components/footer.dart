@@ -36,7 +36,7 @@ Widget desktopFooter() {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     // crossAxisAlignment:
                     //     CrossAxisAlignment.stretch,
-                    children: const [
+                    children: [
                       Text(
                         'Solutions',
                         style: TextStyle(
@@ -45,24 +45,33 @@ Widget desktopFooter() {
                         ),
                       ),
                       SizedBox(height: 10.0),
-                      Text(
-                        'Platforms ',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      InkWell(
+                        onTap: () {},
+                        child: Text(
+                          'Platforms ',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
                       SizedBox(height: 8.0),
-                      Text(
-                        'The Portal ',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      InkWell(
+                        onTap: () {},
+                        child: Text(
+                          'The Portal ',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
                       SizedBox(height: 8.0),
-                      Text(
-                        'Events',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      InkWell(
+                        onTap: () {},
+                        child: Text(
+                          'Events',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
                     ],
@@ -72,33 +81,42 @@ Widget desktopFooter() {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     // crossAxisAlignment:
                     //     CrossAxisAlignment.stretch,
-                    children: const [
-                      Text(
+                    children: [
+                      const Text(
                         'Company',
                         style: TextStyle(
                           fontSize: 12.0,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 10.0),
-                      Text(
-                        'About Us ',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      const SizedBox(height: 10.0),
+                      InkWell(
+                        onTap: () {},
+                        child: const Text(
+                          'About Us ',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
                       SizedBox(height: 8.0),
-                      Text(
-                        'Contact Us',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      InkWell(
+                        onTap: () {},
+                        child: const Text(
+                          'Contact Us',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
                       SizedBox(height: 8.0),
-                      Text(
-                        'History',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      InkWell(
+                        onTap: () {},
+                        child: const Text(
+                          'History',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
                     ],
@@ -108,8 +126,8 @@ Widget desktopFooter() {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     // crossAxisAlignment:
                     //     CrossAxisAlignment.stretch,
-                    children: const [
-                      Text(
+                    children: [
+                      const Text(
                         'Resources',
                         style: TextStyle(
                           fontSize: 12.0,
@@ -117,31 +135,37 @@ Widget desktopFooter() {
                         ),
                       ),
                       SizedBox(height: 10.0),
-                      Text(
-                        'Blog ',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      InkWell(
+                        onTap: () {},
+                        child: const Text(
+                          'Blog ',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
-                      SizedBox(height: 8.0),
-                      Text(
-                        'Marrp Academy',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      const SizedBox(height: 8.0),
+                      InkWell(
+                              onTap: () {},
+                        child: const Text(
+                          'Marpp Academy',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
-                      SizedBox(height: 8.0),
-                      Text(
-                        'Glossary',
-                        style: TextStyle(
-                          fontSize: 12.0,
+                      const SizedBox(height: 8.0),
+                      InkWell(
+                        onTap: () {},
+                        child: const Text(
+                          'Glossary',
+                          style: TextStyle(
+                            fontSize: 12.0,
+                          ),
                         ),
                       ),
                     ],
                   ),
-
-                  //const Expanded(child: SizedBox()),
-                  // const Expanded(child: SizedBox(width: 40)),
                 ],
               ),
               Row(
