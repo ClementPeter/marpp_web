@@ -37,37 +37,37 @@ Widget desktopFooter() {
                     // crossAxisAlignment:
                     //     CrossAxisAlignment.stretch,
                     children: [
-                      Text(
+                      const Text(
                         'Solutions',
                         style: TextStyle(
                           fontSize: 12.0,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 10.0),
+                      const SizedBox(height: 10.0),
                       InkWell(
                         onTap: () {},
-                        child: Text(
+                        child: const Text(
                           'Platforms ',
                           style: TextStyle(
                             fontSize: 12.0,
                           ),
                         ),
                       ),
-                      SizedBox(height: 8.0),
+                      const SizedBox(height: 8.0),
                       InkWell(
                         onTap: () {},
-                        child: Text(
+                        child: const Text(
                           'The Portal ',
                           style: TextStyle(
                             fontSize: 12.0,
                           ),
                         ),
                       ),
-                      SizedBox(height: 8.0),
+                      const SizedBox(height: 8.0),
                       InkWell(
                         onTap: () {},
-                        child: Text(
+                        child: const Text(
                           'Events',
                           style: TextStyle(
                             fontSize: 12.0,
@@ -99,7 +99,7 @@ Widget desktopFooter() {
                           ),
                         ),
                       ),
-                      SizedBox(height: 8.0),
+                      const SizedBox(height: 8.0),
                       InkWell(
                         onTap: () {},
                         child: const Text(
@@ -109,7 +109,7 @@ Widget desktopFooter() {
                           ),
                         ),
                       ),
-                      SizedBox(height: 8.0),
+                      const SizedBox(height: 8.0),
                       InkWell(
                         onTap: () {},
                         child: const Text(
@@ -124,8 +124,6 @@ Widget desktopFooter() {
                   const SizedBox(width: 100),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    // crossAxisAlignment:
-                    //     CrossAxisAlignment.stretch,
                     children: [
                       const Text(
                         'Resources',
@@ -134,7 +132,7 @@ Widget desktopFooter() {
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(height: 10.0),
+                      const SizedBox(height: 10.0),
                       InkWell(
                         onTap: () {},
                         child: const Text(
@@ -146,7 +144,7 @@ Widget desktopFooter() {
                       ),
                       const SizedBox(height: 8.0),
                       InkWell(
-                              onTap: () {},
+                        onTap: () {},
                         child: const Text(
                           'Marpp Academy',
                           style: TextStyle(
